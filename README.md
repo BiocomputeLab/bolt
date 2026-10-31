@@ -74,10 +74,11 @@ the plate secured on top of it) → the matching lid.
 Print all parts at a **0.2mm layer height**, in an opaque filament (e.g.
 black PLA/PETG) — the light isolators and lids exist specifically to
 block stray/ambient light and prevent cross-talk between wells, so
-translucent or light-colored filament defeats their purpose. No supports
-should be needed for a standard FDM print orientation; check wall
-thickness against your printer's nozzle size before scaling, and verify
-fit against the specific plates above before printing a full batch.
+translucent or light-colored filament defeats their purpose. Supports are
+only needed for `plate_elevator.stl`; the other parts print fine without
+them in a standard FDM orientation. Check wall thickness against your
+printer's nozzle size before scaling, and verify fit against the specific
+plates above before printing a full batch.
 
 ## One-time setup
 

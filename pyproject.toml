@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bolt-gui"
+version = "0.1.0"
+description = "B.O.L.T. - Budget Optogenetic Light Tool: control GUI for a budget open-source optogenetic LED driver"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyserial",
+]
+
+[project.scripts]
+bolt-gui = "bolt_gui:main"
+
+[tool.setuptools]
+py-modules = ["bolt_gui"]

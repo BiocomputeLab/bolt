@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# BOLT GUI recent-protocols list (per-machine, not shared)
+.bolt_recent_protocols.json

@@ -193,3 +193,4 @@ multi-hour run.
 - All four channels run independently — just configure each panel's
   intensity, on/off timing, pin, and (optionally) per-channel duration
   separately.
+
